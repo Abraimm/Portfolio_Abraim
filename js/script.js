@@ -39,7 +39,7 @@ function sendEmail() {
     emailjs.send("service_0fqrky4", "template_w1lfnl7", {
         from_name: name,
         from_email: email,
-        whatsapp: whatsapp, // Passando o campo whatsapp
+        from_Whatsapp: whatsapp,
         subject: subject,
         message: message
     })
